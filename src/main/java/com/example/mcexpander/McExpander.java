@@ -1,4 +1,4 @@
-package com.example.McExpander;
+package com.example.mcexpander;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;

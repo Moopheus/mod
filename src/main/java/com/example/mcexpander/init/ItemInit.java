@@ -20,5 +20,15 @@ public class itemInit {
   public static final DeferredRegister<Item> ITEMS = 
             DeferredRegister.create(ForgeRegistries.ITEMS, McExpander.MOD_ID);
   public static final RegistryObject<Item> CORRUPT_SHARDS = ITEMS.register("corrupt_shards",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+}
+public static class ModCreativeTab extends CreativeModeTab {
+    public static final ModCreativeTab instance = new ModCreativeTab(CreativeModeTab.TABS.length, "mcexpander");
+    private ModCreativeTab(int index, String label) {
+        super(index, label);
+    }
+    @Override
+    public ItemStack makeIcon() {
+        return new ItemStack(CORRUPT_SHARDS.get());
+    }
 }

@@ -1,3 +1,4 @@
+package com.example.mcexpander.init;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;

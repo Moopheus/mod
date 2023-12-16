@@ -22,7 +22,7 @@ public class itemInit {
   public static final RegistryObject<Item> CORRUPT_SHARDS = ITEMS.register("corrupt_shards",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
   public static final RegistryObject<Item> HORSE = ITEMS.register("horse",
-            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance).food(new FoodProperties.Builder().nutrition(4).saturationMod(2).build())));
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance).food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build())));
 }
 public static class ModCreativeTab extends CreativeModeTab {
     public static final ModCreativeTab instance = new ModCreativeTab(CreativeModeTab.TABS.length, "mcexpander");

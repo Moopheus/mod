@@ -1,3 +1,0 @@
-#goals
-
-corrupt_shards 

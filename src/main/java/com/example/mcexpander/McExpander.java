@@ -1,5 +1,6 @@
 package com.example.mcexpander;
 
+import com.example.mcexpander.init.*;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;

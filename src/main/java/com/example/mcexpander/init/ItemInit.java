@@ -1,4 +1,5 @@
 package com.example.mcexpander.init;
+
 import com.example.mcexpander.items.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -24,6 +25,8 @@ public class itemInit {
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
   public static final RegistryObject<Item> HORSE = ITEMS.register("horse",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance).food(new FoodProperties.Builder().nutrition(1).saturationMod(1).build())));
+  public static final RegistryObject<Item> COKE = ITEMS.register("coke",
+            () -> new FuelItem(new Item.Properties().tab(ModCreativeTab.instance), 3000));
 }
 public static class ModCreativeTab extends CreativeModeTab {
     public static final ModCreativeTab instance = new ModCreativeTab(CreativeModeTab.TABS.length, "mcexpander");

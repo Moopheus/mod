@@ -13,4 +13,8 @@ public class FuelItem extends Item {
         super(properties);
         this.burnTicks = burnTimeInTicks;
     }
+    @Override
+    public int getBurnTime(ItemStack itemStack, @Nullable RecipeType<?> recipeType) {
+        return this.burnTicks;
+}
 }

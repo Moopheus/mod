@@ -2,5 +2,6 @@
     "itemGroup.mcexpander": "Corrupted Items",
     "item.mcexpander.corrupt_shards": "Corrupt Shards",
     "item.mcexpander.horse": "Horse",
-    "item.mcexpander.coke": "Coke"
+    "item.mcexpander.coke": "Coke", 
+    "block.mcexpander.corrupt_cobblestone": "Corrupted Cobblestone"
 } 

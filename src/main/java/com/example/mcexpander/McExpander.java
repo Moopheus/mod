@@ -37,6 +37,7 @@ public class FirstModMain {
     public McExpander() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
         modEventBus.addListener(this::setup);
     }
 

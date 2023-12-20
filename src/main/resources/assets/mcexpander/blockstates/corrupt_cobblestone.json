@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "mcexpander:block/corrupt_cobblestone"
+        }
+    }
+}

@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:coal_ore"
+              "name": "mcexpander:corrupt_cobblestone"
             },
             {
               "type": "minecraft:item",

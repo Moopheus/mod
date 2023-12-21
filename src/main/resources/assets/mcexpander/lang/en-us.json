@@ -3,5 +3,6 @@
     "item.mcexpander.corrupt_shards": "Corrupt Shards",
     "item.mcexpander.horse": "Horse",
     "item.mcexpander.coke": "Coke", 
-    "block.mcexpander.corrupt_cobblestone": "Corrupted Ores"
+    "block.mcexpander.corrupt_cobblestone": "Corrupted Ores",
+    "block.mcexpander.granite_coal_ore": "Coal Ore"
 } 

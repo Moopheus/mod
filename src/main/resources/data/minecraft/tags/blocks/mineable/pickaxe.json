@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "mcexpander:corrupt_cobblestone"
+        "mcexpander:corrupt_cobblestone",
+        "mcexpander:"
     ]
 }

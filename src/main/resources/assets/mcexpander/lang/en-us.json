@@ -4,5 +4,6 @@
     "item.mcexpander.horse": "Horse",
     "item.mcexpander.coke": "Coke", 
     "block.mcexpander.corrupt_cobblestone": "Corrupted Ores",
-    "block.mcexpander.granite_coal_ore": "Coal Ore"
+    "block.mcexpander.granite_coal_ore": "Coal Ore",
+    "item.mcexpander.logo": "Logo"
 } 

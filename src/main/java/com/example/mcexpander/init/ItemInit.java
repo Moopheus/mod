@@ -29,6 +29,8 @@ public class itemInit {
             () -> new FuelItem(new Item.Properties().tab(ModCreativeTab.instance), 3000));
   public static final RegistryObject<Item> LOGO = ITEMS.register("logo",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+  public static final RegistryObject<Item> RAW_DIAMOND = ITEMS.register("raw_diamond",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance), 3000));
 }
 public static class ModCreativeTab extends CreativeModeTab {
     public static final ModCreativeTab instance = new ModCreativeTab(CreativeModeTab.TABS.length, "mcexpander");

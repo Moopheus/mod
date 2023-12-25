@@ -31,6 +31,16 @@ public class itemInit {
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
   public static final RegistryObject<Item> RAW_DIAMOND = ITEMS.register("raw_diamond",
             () -> new Item(new Item.Properties().tab(ModCreativeTab.instance), 3000));
+  public static final RegistryObject<Item> GRANITE_RAW_DIAMOND = ITEMS.register("granite_raw_diamond",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+  public static final RegistryObject<Item> RAW_EMERALD = ITEMS.register("raw_emerald",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+  public static final RegistryObject<Item> GRANITE_RAW_EMERALD = ITEMS.register("granite_raw_emerald",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+  public static final RegistryObject<Item> RAW_LAPIS = ITEMS.register("raw_lapis",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
+  public static final RegistryObject<Item> GRANITE_RAW_LAPIS = ITEMS.register("granite_raw_lapis",
+            () -> new Item(new Item.Properties().tab(ModCreativeTab.instance)));
 }
 public static class ModCreativeTab extends CreativeModeTab {
     public static final ModCreativeTab instance = new ModCreativeTab(CreativeModeTab.TABS.length, "mcexpander");

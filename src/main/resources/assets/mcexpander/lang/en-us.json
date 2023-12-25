@@ -6,5 +6,10 @@
     "block.mcexpander.corrupt_cobblestone": "Corrupted Ores",
     "block.mcexpander.granite_coal_ore": "Coal Ore",
     "item.mcexpander.logo": "Logo",
-    "item.mcexpander.raw_diamond": "Raw Diamond"
+    "item.mcexpander.raw_diamond": "Stone Raw Diamond",
+    "item.mcexpander.granite_raw_diamond": "Granite Raw Diamond",
+    "item.mcexpander.raw_emerald": "Stone Raw Emerald",
+    "item.mcexpander.granite_raw_emerald": "Granite Raw Emerald,
+    "item.mcexpander.raw_lapis": "Stone Raw Lapis",
+    "item.mcexpander.granite_raw_lapis": "Granite Raw Lapis"
 } 

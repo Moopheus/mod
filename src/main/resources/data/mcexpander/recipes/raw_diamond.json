@@ -3,5 +3,5 @@
     "ingredient": {
         "item": "mcexpander:raw_diamond"
     },
-    "result": "minecraft;diamond"
+    "result": "minecraft:diamond"
 }

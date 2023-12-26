@@ -20,6 +20,8 @@ public class BlockInit {
             () -> new Block(Block.Properties.of(Material.STONE).strength(4f, 1200f).requiresCorrectToolForDrops().lightLevel((state) -> 1));
     public static final RegistryObject<Block> GRANITE_COAL_ORE = BLOCKS.register("granite_coal_ore",
             () -> new Block(Block.Properties.copy(Blocks.COAL_ORE)));
+    public static final RegistryObject<Block> BISMUTH_ORE = BLOCKS.register("bismuth_ore",
+            () -> new Block(Block.Properties.copy(Blocks.IRON_ORE)));
     @SubscribeEvent
     public static void onRegisterItems(final RegisterEvent event) {
         if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS)){

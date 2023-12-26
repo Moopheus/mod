@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "mcexpander:raw_emerald"
+    },
+    "result": "minecraft:emerald"
+}
